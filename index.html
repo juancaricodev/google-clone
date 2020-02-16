@@ -4,22 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
 </head>
 <body>
-    <section class="header">
-        <div class="header__menu">
-            <h3 class="header__menu-option">Gmail</h3>
-            <h3 class="header__menu-option">Images</h3>
-            <img src="" alt="" class="header__menu-icon">
-            <img src="" alt="" class="header__menu-icon">
+    <nav class="header">
+        <menu class="header__menu">
+            <ul>
+                <li class="header__menu-option">
+                    Gmail
+                </li>
+                <li class="header__menu-option">
+                    Images
+                </li>
+                <li class="header__menu-apps">
+                    <img src="./assets/img/apps-24px.svg" alt="" />
+                </li>
+                <li class="header__menu-user">
+                    <img src="./assets/img/supervised_user_circle-24px.svg" alt="" />
+                </li>
+            </ul>
+        </menu>
+    </nav>
+
+    <section class="searchbar">
+        <img src="./assets/img/google-logo.png" alt="Google" class="searchbar__logo" />
+        <div class="searchbar__bar">
+            <input type="text" class="searchbar__input" />
         </div>
     </section>
 
-    <section class="searchbar">
-        <img src="" alt="" class="searchbar__logo">
-        <div class="searchbar__bar"></div>
-    </section>
-    
-    <section class="footer"></section>
+    <footer class="footer">
+        <div class="footer__left">
+            <li>Advertising</li>
+            <li>Business</li>
+            <li>About</li>
+            <li>How Search Works</li>
+        </div>
+        <div class="footer__right">
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Settings</li>
+        </div>
+    </footer>
 </body>
 </html>

@@ -5,45 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
     <nav class="header">
         <menu class="header__menu">
-            <ul>
-                <li class="header__menu-option">
-                    Gmail
-                </li>
-                <li class="header__menu-option">
-                    Images
-                </li>
-                <li class="header__menu-apps">
-                    <img src="./assets/img/apps-24px.svg" alt="" />
-                </li>
-                <li class="header__menu-user">
-                    <img src="./assets/img/supervised_user_circle-24px.svg" alt="" />
-                </li>
-            </ul>
+            <li class="header__menu-option">
+                <a href="#">Gmail</a>
+            </li>
+            <li class="header__menu-option">
+                <a href="#">Images</a>
+            </li>
+            <li class="header__menu-apps">
+                <a href="#"><img src="./assets/img/apps-24px.svg" alt="Apps" /></a>
+            </li>
+            <li class="header__menu-user">
+                <a href="#"><img src="./assets/img/supervised_user_circle-24px.svg" alt="User" /></a>
+            </li>
         </menu>
     </nav>
-
     <section class="searchbar">
-        <img src="./assets/img/google-logo.png" alt="Google" class="searchbar__logo" />
+        <img class="searchbar__logo" src="./assets/img/google-logo.png" alt="Google" />
         <div class="searchbar__bar">
-            <input type="text" class="searchbar__input" />
+            <input class="searchbar__input" type="text" />
+        </div>
+        <div class="searchbar__button-container">
+            <input type="button" value="Google Search" class="searchbar__button-item" />
+            <input type="button" value="I'm Feeling Lucky" class="searchbar__button-item" />
+        </div>
+        <div class="searchbar__languaje">
+            <p class="searchbar__languaje-item">Google offered in:</p>
+            <a href="#" class="searchbar__languaje-item">Español (Latinoamérica)</a>
         </div>
     </section>
-
     <footer class="footer">
-        <div class="footer__left">
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>About</li>
-            <li>How Search Works</li>
+        <div class="footer__side">
+            <li>
+                <a href="#">Advertising</a>
+            </li>
+            <li>
+                <a href="#">Business</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">How Search Works</a>
+            </li>
         </div>
-        <div class="footer__right">
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Settings</li>
+        <div class="footer__side">
+            <li>
+                <a href="#">Privacy</a>
+            </li>
+            <li>
+                <a href="#">Terms</a>
+            </li>
+            <li>
+                <a href="#">Settings</a>
+            </li>
         </div>
     </footer>
 </body>

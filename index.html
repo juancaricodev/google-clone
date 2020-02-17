@@ -8,26 +8,30 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-    <nav class="header">
-        <menu class="header__menu">
-            <li class="header__menu-option">
-                <a href="#">Gmail</a>
-            </li>
-            <li class="header__menu-option">
-                <a href="#">Images</a>
-            </li>
-            <li class="header__menu-apps">
-                <a href="#"><img src="./assets/img/apps-24px.svg" alt="Apps" /></a>
-            </li>
-            <li class="header__menu-user">
-                <a href="#"><img src="./assets/img/supervised_user_circle-24px.svg" alt="User" /></a>
-            </li>
-        </menu>
-    </nav>
-    <div class="searchbar">
+    <header>
+        <nav class="header">
+            <menu class="header__menu">
+                <li class="header__menu-option">
+                    <a href="#">Gmail</a>
+                </li>
+                <li class="header__menu-option">
+                    <a href="#">Images</a>
+                </li>
+                <li class="header__menu-apps">
+                    <a href="#"><img src="./assets/img/apps-24px.svg" alt="Apps" /></a>
+                </li>
+                <li class="header__menu-user">
+                    <a href="#"><img src="./assets/img/supervised_user_circle-24px.svg" alt="User" /></a>
+                </li>
+            </menu>
+        </nav>
+    </header>
+    <main class="searchbar">
         <img class="searchbar__logo" src="./assets/img/google-logo.png" alt="Google" />
         <div class="searchbar__bar">
+            <span class="searchbar__bar-search"></span>
             <input class="searchbar__input" type="text" />
+            <a class="searchbar__bar-mic" href=""></a>
         </div>
         <div class="searchbar__button-container">
             <input type="button" value="Google Search" class="searchbar__button-item" />
@@ -37,7 +41,7 @@
             <p class="searchbar__languaje-item">Google offered in:</p>
             <a href="#" class="searchbar__languaje-item">Español (Latinoamérica)</a>
         </div>
-    </div>
+    </main>
     <footer class="footer">
         <div class="footer__side">
             <ul>
